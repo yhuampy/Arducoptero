@@ -1,0 +1,25 @@
+Quadra-coptero que funciona mediante placas arduino que sigue un color en específico 
+y puede ser controlado remotamente gracias a un teléfono celular.
+ -Creemos que puede servir para el transporte de cargas pequeñas, mediante un 
+  camino guiado (hecho de colores) en lugares complicados o de difícil acceso.
+ -Podría servir en contrucciones, minas, empresas que requieran de transporte ligero y 
+  rápido, simple entretención, etc.
+ -Contará con cuatro hélices hechas de un material ligero que rotarán mediante un o varios
+  motores (aún en discusión). Se montará una cámara de baja calidad que cumplirá la función
+  de recibir la entrada de luz que luego será procesada para que el aparato pueda seguir 
+  el color determnado, manteniendo estabilidad gracias a acelerómetros.
+ -Referencias:
+	-'Flying Sphere': https://www.youtube.com/watch?feature=player_embedded&v=6tZHRvXrYnU
+ 	-'Cámara espía': http://www.youtube.com/watch?v=JEFaqqDTMLk
+	-'Pan tracking webcam using OpenCV and Arduino': https://www.youtube.com/watch?v=Gg6zqjDq1ho
+	-'Tricoptero casero con Arduino': http://blog.bricogeek.com/noticias/arduino/tricopter-casero-con-arduino/
+ -Requisitos:
+	-Placas Arduino
+	-Web-cam
+	-Motores
+	-Hélices
+	-Materiales livianos para estructura
+	-Batería
+	-Giroscopios
+	-Sensores de Profundidad
+
