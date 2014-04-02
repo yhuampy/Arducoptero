@@ -1,24 +1,80 @@
-Quadra-coptero que funciona mediante placas arduino que sigue un color en especÌfico 
-y puede ser controlado remotamente gracias a un telÈfono celular.
- -Creemos que puede servir para el transporte de cargas pequeÒas, mediante un 
-  camino guiado (hecho de colores) en lugares complicados o de difÌcil acceso.
- -PodrÌa servir en contrucciones, minas, empresas que requieran de transporte ligero y 
-  r·pido, simple entretenciÛn, etc.
- -Contar· con cuatro hÈlices hechas de un material ligero que rotar·n mediante un o varios
-  motores (a˙n en discusiÛn). Se montar· una c·mara de baja calidad que cumplir· la funciÛn
-  de recibir la entrada de luz que luego ser· procesada para que el aparato pueda seguir 
-  el color determnado, manteniendo estabilidad gracias a acelerÛmetros.
- -Referencias:
-	-'Flying Sphere': https://www.youtube.com/watch?feature=player_embedded&v=6tZHRvXrYnU
- 	-'C·mara espÌa': http://www.youtube.com/watch?v=JEFaqqDTMLk
-	-'Pan tracking webcam using OpenCV and Arduino': https://www.youtube.com/watch?v=Gg6zqjDq1ho
-	-'Tricoptero casero con Arduino': http://blog.bricogeek.com/noticias/arduino/tricopter-casero-con-arduino/
- -Requisitos:
+Quadra-coptero 
+	
+	Proyecto con funcionamiento basado en arduino que sigue un color en especifico utilizando OpenCV 
+	y puede ser controlado remotamente
+	mediante la utilizacion de Smartphones	
+	
+	
+	Consideraciones:
+ 	
+	
+	- Creemos que puede servir para el transporte de cargas peque√±as, mediante un camino guiado (de primer momento hecho de colores) en lugares
+	 complicados o de dificil acceso.
+
+  	
+	
+	- Los fines del modelo corresponden a responder a necesidades en zonas de contrucciones, estructuras
+ 	 de peligro, 
+	 principalmente como objetivo las zonas de extraccion, empresas que requieran de transporte ligero y 
+	 r√°pido, 
+	 y como fin obtener un modelo que sea una alternativa de menor costo respecto a otras alternativas comerciales.
+
+  	
+	
+	- En el desarrollo y contrucci√≥n se estima en que contar√° con cuatro helices hechas de un material ligero que rotaran mediante la acci√≥n de motores 
+	 (a√∫n en discusi√≥n). 
+	 Y como sistema de gu√≠a de montar√° una c√°mara ( mediante en funcionamiento de OpenCV ) que debe cumplir la funci√≥n
+ 	 de recibir la entrada de luz que luego 
+	 ser procesada para que el aparato pueda seguir, y por lo tanto como posible implementaci√≥n, el actuar de manera aut√≥noma. 
+  	 
+	 
+	- Adem√°s de los necesarios conjuntos de accelerometros y giroscopios, la posible implementacion de un m√©todo de de autonomia implica la acci√≥n
+
+ 	 de mantenimiento y sustentabilidad del equilibrio del sistema
+ 	
+	
+	Referencias:
+	
+	 
+	 - http://shrediquette.blogspot.com/
+	 
+	 - Flying Sphere': https://www.youtube.com/watch?feature=player_embedded&v=6tZHRvXrYnU
+ 	
+	
+	 - CÔøΩmara espÔøΩa': http://www.youtube.com/watch?v=JEFaqqDTMLk
+	
+	
+	 - Pan tracking webcam using OpenCV and Arduino': https://www.youtube.com/watch?v=Gg6zqjDq1ho
+	
+	
+	 - Tricoptero casero con Arduino': http://blog.bricogeek.com/noticias/arduino/tricopter-casero-con-arduino/
+ 	
+	
+	
+	
+	Requisitos:
+	
+	
+	
 	-Placas Arduino
-	-Web-cam
-	-Motores
-	-HÈlices
-	-Materiales livianos para estructura
-	-BaterÌa
-	-Giroscopios
-	-Sensores de Profundidad
+	
+	
+	- Web-Cam
+	
+	
+	- Motores
+	
+	
+	- H√©lices
+	
+	
+	- Materiales livianos para estructura, correspondiente a utlizaci√≥n de impresion 3d
+	
+	
+	- Bater√≠a
+	
+	
+	- Giroscopios
+	
+	
+	- Sensores de Profundidad
